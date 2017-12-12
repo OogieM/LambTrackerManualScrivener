@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SnapshotIndexes Version="1.0" BinderUUID="CF30DC4B-C8F3-4B33-9C78-5059E7AD69A9">
+    <Snapshot Date="2017-12-10 12:45:12 -0700">
+        <Title>Untitled (Save)</Title>
+        <Text>March starts the busy season again. The ewes will start lambing in late April with most of the lambs being born in May. Before lambing the ewes need annual booster shots, their feet need trimming and of course the annual shearing. 
+LambTracker is designed to help with all these traditional recurring sheep management tasks. 
+First up is shearing.
+Wool is an important part of the income for this farm so keeping track of the data during shearing is critical. As each sheep comes down the chute to the shearer their ear tag is scanned. 
+Two labels are printed for each sheep. The first one goes on a paper form that iis used to collect some details about the behavior and fleece quality of the individual sheep. The second label is placed on the bag where the fleece is packed. 
+Hand spinning market likes to buy wool from named sheep that are individually identified so it is important to know which animal any given fleece comes from. 
+During some years Keith and Caitlin will send wool samples off for analysis of the fiber length, micron and curvature. For those years they use LambTracker to print three identical labels. One goes on the paper data entry form. One goes on the sample bag and one goes on the wool bag. 
+Initially LambTracker was used to collect the shearing data at the time of shearing but it proved inadequate to the task. It was too slow to look up the sheep and fill out the form with details. So a simple paper system was set up to allow quick checking of critical data on each sheep. Things like good or bad behavior, sticky fleece, nice fleece are all important characteristics that are kept. 
+After shearing the next set of tasks include deworming, vaccinations and toe trims. To get set up for these tasks all drug to be used are entered into the LambTracker desktop system. Every drug has full data about the drug stored in the system. Users can choose to leave off some fields but there are some mandatory fields. 
+Mandatory fields include the drug type, official drug name, drug lot drug expiration data and the meat withdrawals. All drugs must have  a withdrawal entered in. LambTracker will track both eh official meat withdrawal and the unit of time that will be used as well as a user withdrawal. The user withdrawal cannot ever be smaller than the official one. A generic drug name is optional but highly recommended. The official drug dose must be entered and if the drug is being used off-label a veterinarian must be linked to the drug record. The other required data is the drug’s user task name. 
+Optional fields include (* enter in the optional ones here *)
+Using the sheep management module Keith and Caitlin looked up each sheep, checked the various management tasks that they performed and saved the data. For all drugs and dewormers the slaughter dates are automatically added in as an alert that th sheep is on slaughter withdrawal until some defined timeframe according to the drug records. 
+</Text>
+    </Snapshot>
+    <Snapshot Date="2017-12-10 12:50:32 -0700">
+        <Title>Untitled (Save)</Title>
+        <Text>March starts the busy season again. The ewes will start lambing in late April with most of the lambs being born in May. Before lambing the ewes need annual booster shots, their feet need trimming and of course the annual shearing. 
+LambTracker is designed to help with all these traditional recurring sheep management tasks. 
+First up is shearing.
+Wool is an important part of the income for this farm so keeping track of the data during shearing is critical. As each sheep comes down the chute to the shearer their ear tag is scanned. 
+Two labels are printed for each sheep. The first one goes on a paper form that iis used to collect some details about the behavior and fleece quality of the individual sheep. The second label is placed on the bag where the fleece is packed. 
+Hand spinning market likes to buy wool from named sheep that are individually identified so it is important to know which animal any given fleece comes from. 
+During some years Keith and Caitlin will send wool samples off for analysis of the fiber length, micron and curvature. For those years they use LambTracker to print three identical labels. One goes on the paper data entry form. One goes on the sample bag and one goes on the wool bag. 
+Initially LambTracker was used to collect the shearing data at the time of shearing but it proved inadequate to the task. It was too slow to look up the sheep and fill out the form with details. So a simple paper system was set up to allow quick checking of critical data on each sheep. Things like good or bad behavior, sticky fleece, nice fleece are all important characteristics that are kept. 
+After shearing the next set of tasks include deworming, vaccinations and toe trims. To get set up for these tasks all drug to be used are entered into the LambTracker desktop system. Every drug has full data about the drug stored in the system. Users can choose to leave off some fields but there are some mandatory fields. 
+Mandatory fields include the drug type, official drug name, drug lot drug expiration data and the meat withdrawals. All drugs must have  a withdrawal entered in. LambTracker will track both the official meat withdrawal and the unit of time that will be used as well as a user withdrawal. The user withdrawal cannot ever be smaller than the official one. A generic drug name is optional but highly recommended. The official drug dose must be entered and if the drug is being used off-label a veterinarian must be linked to the drug record. The other required data is the drug’s user task name. 
+Optional fields include (* enter in the optional ones here *)
+Using the sheep management module Keith and Caitlin looked up each sheep, checked the various management tasks that they performed and saved the data. For all drugs and dewormers the slaughter dates are automatically added in as an alert that the sheep is on slaughter withdrawal until some defined timeframe according to the drug records. 
+</Text>
+    </Snapshot>
+</SnapshotIndexes>

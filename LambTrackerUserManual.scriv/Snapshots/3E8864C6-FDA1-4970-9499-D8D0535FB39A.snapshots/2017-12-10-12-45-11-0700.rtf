@@ -1,0 +1,31 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1504\cocoasubrtf830
+{\fonttbl\f0\fnil\fcharset0 Cochin;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\fi360\sl288\slmult1\pardirnatural\partightenfactor0
+
+\f0\fs28 \cf0 Before you start implementing LambTracker we suggest you take some time to decide whether you even need it. Nearly every flock will require at least some sort of record keeping. Depending on your needs you may be best served by keeping a simple paper notebook. There are many cases though where the extensive records that can be easily kept in LambTracker will be useful. \
+To help you determine whether LambTracker would be useful you should answer these questions. \
+\
+I know or need to know the sire and dam for each lamb born.\
+I maintain individual permanent ID on every sheep.\
+\
+If you cannot answer yes to all of the above then it\'92s going to be difficult for you to use LambTracker. Assuming you can use LambTracker then you have to decide if you want or need to use this sort of system. To help you decide answer these questions. \
+\
+I need to track individual sheep performance including a variety of parameters that I decide on.\
+I need to know birth and other weights.\
+I am recording the flock with NSIP or LambPlan for EBV calculations.\
+I need to send in pedigree data to register lambs with my breed association.\
+I need to track slaughter withdrawals on an individual basis.\
+\
+If you answer yes to all or most of these questions thent he features of LambTracker may prove useful for you.\
+\
+For this set of questions the answers will determine whether you will be using all modules.\
+\
+The LambTracker system consists of several parts:\
+The SQLite Database is the core of the LambTracker system. It is where all the data and information on the sheep is kept and updated. It contains the history of the flock and also plans for the future with breeding plans. The database system includes all drugs used, the contacts including veterinarians, suppliers, customers and data from outside sources like NSIP EBV calculations. As various modules have been implemented the database has been expanded to provide support for storing and accessing that data. The database is designed to be normalized to level 2 and has proven to be fairly robust as we\'92ve added modules and data types. \
+The second major piece of LambTracker is the Mobile Application. LambTracker Mobile is an Android application that uses bluetooth to talk to the EEID tag reader hardware. Within the application are several modules that are used to perform flock functions. LambTracker is designed to display properly on a Kindle Fire Android tablet. We are currently working to improve the display options for other sizes and types of Android tablets. Due to the large volume of data to display in most modules it is not recommended to try to run LambTracker on an Android mobile phone. \
+The third piece of the LambTracker system is the Desktop Application. LambTracker desktop is used to set up the system. From the desktop you can add sheep, add drugs, contacts, and create reports. Setting up breeding plans, the sorting and removing sheep are all done within the desktop application.  There is no current desktop application. Our initial incarnation used Chrome browser to run the Android applicaiton but that is no loger available. \
+A fourth optional piece of LambTracker is EID hardware and ear tags. While not required it can make collecting data much faster and read errors are much reduced. LambTracker is designed to work with any individual ID system you choose but it is critical that every sheep be identified as an individual. \
+\
+}

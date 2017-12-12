@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SnapshotIndexes Version="1.0" BinderUUID="725E5C0C-3CFC-407F-AA3F-F0D469D64029">
+    <Snapshot Date="2017-12-10 12:50:32 -0700">
+        <Title>Untitled (Save)</Title>
+        <Text>LambTracker revision 4 Planned Improvements 
+
+Add a diary or general shepherd notes journal that is not related to a single sheep for overall flock notes.
+EBV data collection and display
+Add beeps from tablet when you press save scores so there is feedback that the data got saved
+Calculation of inbreeding according to Wrights Methods
+Wards Analysis of a population for clustering of sheep by relationship
+</Text>
+    </Snapshot>
+</SnapshotIndexes>

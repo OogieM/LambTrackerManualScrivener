@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SnapshotIndexes Version="1.0" BinderUUID="CD5650BE-8018-49B3-B987-9C7D93DEB704">
+    <Snapshot Date="2017-12-10 12:50:32 -0700">
+        <Title>Untitled (Save)</Title>
+        <Text>August - Sort for Weaning
+Before coming out to work the sheep Keith had set up the sorting task on LambTracker desktop. To set up a sort click the Sheep Management Task icon to get into the task management screen. Select the type of task you wish to do from the following choices
+Sort Sheep
+Worming or Vaccinations
+Hoof Trims
+Evaluate Sheep
+For today the selection is Sort Sheep
+The sort screen appears and  Keith selected one of the standard sort options from the resulting menu: 
+Sort Ram Lambs
+Sort Ewe Lambs
+Select Individual Sheep for Sorting
+There were other options (* insert rest of the options here *)
+He saved the sort criteria and then selected Download Sheep Tasks to Android. 
+What he didn’t realize is that behind the scenes LambTracker Desktop created an Alert Message for each male sheep less than 1 year of age that said “Sort for weaning”. The alerts were added to any existing alerts for each specific sheep by inserting a new line character into the alert field and then appending the “Sort for weaning” text. 
+He unplugged the kids Android tablet from his desktop Macintosh and grabbed the inexpensive sheep EID reader he had built from directions on the LambTracker web site. Putting on a shooting vest with a large front pocket completed his preparations and he headed outdoors. He grabbed his own sheep crook and met Caitlin at the sheep sweep. 
+Caitlin woke up early, the weather had been really hot but the monsoon rains had come and things were cooling off a bit. The lambs were growing well and it was time to wean the ram labs and get them out of the pastures away from the ewes. It was still hot in the afternoons so all sheep work had to be done early. 
+Caitlin grabbed the Android tablet computer and the EID reader and headed out the door. In the barn she picked up the sheep crook. Yesterday Caitlin and Keith had worked to get all the fences set to move the sheep into the handling yard. They worked quickly and efficiently, finishing up the last set-ups and getting gates ready.
+“Baaa Baa Baa”, Caitling called, “Come on sheep, sheep, Open Gate”. Their flock was small enough that they never used a herding dog. It was generally easier to set a few electric fences and train the sheep to come than it would be to deal with a hyper border collie all year long. The sheep flock all looked up and came racing towards the open gate. Ewes and lambs streamed past and headed down to the main barn and the sheep sweep.
+Caitlin called the flock down and gotten the first batch of mixed ewes and lambs into the handling facility and set the gates behind to keep sheep moving into the chute system. With only two people to handle the sheep and no herding dog they had worked out a great way to work with LambTracker. Keith kept the handheld and got behind the sheep in the sweep. Caitlin would operate the gates to get sheep into the chute, scan the EID ear tags on the sheep and then sort them based on results Keith called out. The procedure is to fill the chute with a group of sheep. Then Caitlin would go down the line and scan each EID. As she did so Keith would call out the alert messages for that sheep.
+“Ready?” Caitlin called
+“Ready” said Keith.
+The first sheep was scanned easily.
+“Check left hind foot, possible abscess” said Keith.
+Caitlin checked the sheep and then moved to the next one in line. 
+“Got it”, called Keith, “Sort for weaning”.
+Caitlin scanned the next sheep.
+“Nothing” said Keith
+When a chute full was scanned Caitlin would then sort the sheep into the weaned lambs group and the rest of the sheep. They did not own an automatic sort gate. If they had one they could have set up the sort using the EID tags and have the sheep automatically sorted for them. However their procedure was much faster than their previous system. 
+They continued this way until all 150 sheep had been sorted. Their sheep sweep only had a two way sort gate. If they needed to sort sheep into more than two separate groups they would sort out the first batch, then run them into their new location and re-sort the remaining sheep until all groups were done. 
+Along the way several sheep had alerts to check something else. A few needed their hooves trimmed, some needed to be checked for nose bots and a few had to have their teeth checked. 
+“Check tooth abscess right lower jaw” called out Keith. 
+Caitlin grabbed the ewe head and carefully checked the old ewes’ jaw. “She’s fine now you can remove the alert.”
+Keith selected the clear the alert button and removed the note about the teeth on that sheep. 
+“Add an alert, please. Bad tooth lower right, have vet check” Said Caitlin. “If she doesn’t get better  she’ll have to go to slaughter this fall.”
+Keith selected the add an alert button and typed in the new alert text.
+Several sheep seemed to have some sort of new problem or issue. In these cases a new note was added for sheep that had common things that Keith or Caitlin decided needed to be kept in the permanent record for the sheep. 
+“Add a note on this one please.” Said Caitlin “She’s got a messy butt.”
+Keith selected the Add a Note button and then selected “Messy Butt” from the list of predefined notes. LambTracker comes with a number of predefined notes about sheep installed but the user can add new ones.
+A couple other items became alerts for next time. A ewe with a tooth abscess was marked with a new alert to re-check next time the sheep went through the sweep. 
+Once all the sheep had been sorted the newly weaned ram lambs were herded into the weaning pen. The ewes and their ewe lambs were sent back out into the pasture. 
+
+</Text>
+    </Snapshot>
+</SnapshotIndexes>

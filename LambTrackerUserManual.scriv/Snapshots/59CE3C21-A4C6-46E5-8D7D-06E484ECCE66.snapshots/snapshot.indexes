@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SnapshotIndexes Version="1.0" BinderUUID="59CE3C21-A4C6-46E5-8D7D-06E484ECCE66">
+    <Snapshot Date="2017-12-10 12:50:32 -0700">
+        <Title>Untitled (Save)</Title>
+        <Text>Within the LambTracker system there is the concept of an Alert for a sheep and a Note for a sheep.
+Alerts are items that need to be looked at the next time you catch or handle the sheep. If there is an alert set for the sheep then you cannot get to the main activity or record in any given module until you acknowledge the alert. Alerts can be set before doing a sheep task. If a sheep have an alert and another alerts is added the text is just appended to the previous alert. 
+Management of alerts can be complex, but they are an important part of making sure that all sheep are documented and all critical issues are tracked. 
+Alerts are presumed to eventually go away, although any given sheep may have an alert that sticks on their record for a number of months if necessary. 
+Don’t put in an alert something you want to have for reference for the lifetime of the sheep or beyond. 
+LambTracker Desktop has an option to reset all alerts to blank. 
+Notes are a different matter. Notes are things the shepherd wants to remember about a sheep that don’t fit into any other field. Notes can include free form text and can also be selected from among the predefined notes in the system. 
+Currently the predefined notes in LambTracker are:
+Bad Behavior
+Good Behavior
+Jumper
+Horn Saw
+Nice Fleece
+Basher
+Snotty Nose
+Eats Thistles
+Eats Trees
+Sticky Fleece
+Grey
+Messy Butt
+Notes stay in the LambTracker database forever. Notes can be viewed by year and by sheep and can also be searched. 
+The differences between notes and alerts is subtle but important. If you are not sure whether a particular item is a note or an alert think about whether you may want to go back and find this item eventually. If the answer is yes then it’s a note. If it’s just an ephemeral item you will not need again then it should be an alert instead. 
+
+An example of an Alert is “Sell?” or “Keep” so that you can easily pull a list of potential animals for sale.
+An example of a Note is “
+</Text>
+    </Snapshot>
+</SnapshotIndexes>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SnapshotIndexes Version="1.0" BinderUUID="2CC154F6-B447-4A52-B599-40600AAD6EBB">
+    <Snapshot Date="2017-12-10 12:50:32 -0700">
+        <Title>Untitled (Save)</Title>
+        <Text>December started very cold and snowy. The ewes had been sorted into breeding groups and the primary breeding rams were put in. Keith and Caitlin don’t normally use any raddle marker or breeding harnesses on their rams but they do watch them to see if breeding activity is going on. The primary ram was actively breeding his ewes within minutes. 
+The other ewe group had been bred via artificial insemination so they were in the waiting period before a backup ram would be introduced. 
+There isn’t much work for shepherds during December so LambTracker doesn’t get much use this month. The only  real big event is once the primary breeding rams are removed from their ewe groups the ewes are re-sorted into groups for a second backup breeding ram. The procedures for setting this breeding record up and for sorting the ewes are the same as those for setting up a primary breeding. 
+One key task is to give all the sheep a winter deworming. Keith and Caitlin live in an area where there are a number of parasites that overwinter in the sheep. Most of the local veterinarians recommend giving the entire flock a dewormer to kill nose bots after a good hard frost. 
+LambTracker management and medication module is where you set up a deworming task. Keith brought up LambTracker desktop on his Linux computer. Caitlin and already entered in a number of drugs into the system with the drug trade name, the generic name, the drug manufacturer, the lot number, the expiration date, the drug dosage, the administration options and the official slaughter withdrawal time. Since many of the drugs used for sheep in the United States are used off label LambTracker also allows the shepherd to enter in the veterinarian who prescribed the drug and any user defined slaughter withdrawal date as long as it is more than the official one. 
+As part of defining a drug record Keith included the dosage based on weight that they planned to use. He also entered in a slaughter withdrawal that was twice the official withdrawal. Keith and Caitlin routinely double the federal slaughter withdrawal time for any treatment they give their sheep. Their customer base demands the traceability and the additional time. 
+As they ran the sheep through the sweep Caitlin administered the wormer to each animal. Keith clicked the wormer checkbox on the management screen after verifying that the drug to be given was the one they were using that day. A drug record for each animal was created that also included the default location or route of administration. As each record was updated an alert was set for reach sheep that indicated that they had a slaughter withdrawal hold until the date set based on how many days was in the user slaughter withdrawal for that drug record. 
+
+</Text>
+    </Snapshot>
+</SnapshotIndexes>

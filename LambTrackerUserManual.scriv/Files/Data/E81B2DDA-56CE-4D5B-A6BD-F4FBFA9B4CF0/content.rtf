@@ -1,0 +1,467 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1348\cocoasubrtf170
+{\fonttbl\f0\fnil\fcharset0 Monaco;}
+{\colortbl;\red255\green255\blue255;\red0\green128\blue128;\red63\green127\blue127;\red127\green0\blue127;
+\red42\green0\blue255;}
+\deftab720
+\pard\pardeftab720
+
+\f0\fs22 \cf2 <\cf3 LinearLayout\cf0  \cf4 xmlns:android\cf0 =\cf5 "http://schemas.android.com/apk/res/android"\cf0 \
+    \cf4 android:layout_width\cf0 =\cf5 "fill_parent"\cf0 \
+    \cf4 android:layout_height\cf0 =\cf5 "fill_parent"\cf0 \
+    \cf4 android:orientation\cf0 =\cf5 "vertical"\cf0  \cf2 >\cf0 \
+\
+   \cf2 <\cf3 GridLayout\cf0  \
+        	\cf4 android:id\cf0 =\cf5 "@+id/grid1"\cf0 \
+	        \cf4 android:layout_width\cf0 =\cf5 "wrap_content"\cf0 \
+			\cf4 android:layout_height\cf0 =\cf5 "wrap_content"\cf0 \
+        	\cf4 android:columnCount\cf0 =\cf5 "3"\cf0 \
+       		\cf4 android:rowCount\cf0 =\cf5 "3"\cf2 >\cf0 \
+        \
+           \cf2 <\cf3 TextView\cf0 \
+            \cf4 android:layout_width\cf0 =\cf5 "150dp"\cf0 \
+            \cf4 android:layout_height\cf0 =\cf5 "wrap_content"\cf0      \
+            \cf4 android:layout_gravity\cf0 =\cf5 "left"\cf0 \
+            \cf4 android:layout_column\cf0 =\cf5 "0"\cf0 \
+            \cf4 android:layout_row\cf0 =\cf5 "0"\cf0 \
+            \cf4 android:inputType\cf0 =\cf5 "none"\cf0 \
+            \cf4 android:text\cf0 =\cf5 "@string/input_id_lbl"\cf0  \cf2 />\cf0 \
+           \
+           \cf2 <\cf3 EditText\cf0 \
+            \cf4 android:id\cf0 =\cf5 "@+id/inputText"\cf0 \
+            \cf4 android:layout_width\cf0 =\cf5 "150dp"\cf0 \
+            \cf4 android:layout_height\cf0 =\cf5 "wrap_content"\cf0 \
+            \cf4 android:layout_gravity\cf0 =\cf5 "left"\cf0 \
+            \cf4 android:layout_column\cf0 =\cf5 "0"\cf0 \
+            \cf4 android:layout_row\cf0 =\cf5 "1"\cf0 \
+            \cf4 android:enabled\cf0 =\cf5 "true"\cf0 \
+            \cf4 android:inputType\cf0 =\cf5 "number"\cf0 \
+            \cf4 android:textSize\cf0 =\cf5 "18sp"\cf0 \
+            \cf4 android:typeface\cf0 =\cf5 "monospace"\cf0  \cf2 >\cf0 \
+            \cf2 <\cf3 requestFocus\cf0  \cf2 />\cf0 \
+            \cf2 </\cf3 EditText\cf2 >\cf0 \
+            \
+  			\cf2 <\cf3 TextView\cf0 \
+        	\cf4 android:layout_width\cf0 =\cf5 "200dp"\cf0 \
+       	 	\cf4 android:layout_height\cf0 =\cf5 "wrap_content"\cf0 \
+        	\cf4 android:layout_column\cf0 =\cf5 "1"\cf0 \
+            \cf4 android:layout_gravity\cf0 =\cf5 "left"\cf0 \
+            \cf4 android:layout_row\cf0 =\cf5 "0"\cf0 \
+            \cf4 android:inputType\cf0 =\cf5 "none"\cf0 \
+        	\cf4 android:text\cf0 =\cf5 "@string/sheep_name_lbl"\cf0  \cf2 />\cf0 \
+        \
+        \cf2 <\cf3 TextView\cf0 \
+        	\cf4 android:id\cf0 =\cf5 "@+id/sheepnameText"\cf0 \
+        	\cf4 android:layout_width\cf0 =\cf5 "200dp"\cf0 \
+       	 	\cf4 android:layout_height\cf0 =\cf5 "wrap_content"\cf0 \
+           	\cf4 android:layout_column\cf0 =\cf5 "1"\cf0 \
+            \cf4 android:layout_gravity\cf0 =\cf5 "left"\cf0 \
+            \cf4 android:layout_row\cf0 =\cf5 "1"\cf0 \
+            \cf4 android:ems\cf0 =\cf5 "10"\cf0 \
+        	\cf4 android:gravity\cf0 =\cf5 "left"\cf0 \
+        	\cf4 android:textSize\cf0 =\cf5 "18sp"\cf0 \
+        	\cf4 android:typeface\cf0 =\cf5 "monospace"\cf0  \cf2 />\cf0        \
+       \cf2 </\cf3 GridLayout\cf2 >\cf0   \
+   \
+    \cf2 <\cf3 GridLayout\cf0 \
+        \cf4 android:id\cf0 =\cf5 "@+id/grid2"\cf0 \
+        \cf4 android:layout_width\cf0 =\cf5 "match_parent"\cf0 \
+        \cf4 android:layout_height\cf0 =\cf5 "wrap_content"\cf0 \
+        \cf4 android:columnCount\cf0 =\cf5 "6"\cf0  \cf2 >\cf0 \
+\
+        \cf2 <\cf3 Button\cf0 \
+            \cf4 android:id\cf0 =\cf5 "@+id/search_fed_btn"\cf0 \
+            \cf4 android:layout_width\cf0 =\cf5 "100dp"\cf0 \
+            \cf4 android:layout_height\cf0 =\cf5 "50dp"\cf0 \
+            \cf4 android:layout_column\cf0 =\cf5 "0"\cf0 \
+            \cf4 android:layout_gravity\cf0 =\cf5 "left|top"\cf0 \
+            \cf4 android:layout_row\cf0 =\cf5 "0"\cf0 \
+            \cf4 android:onClick\cf0 =\cf5 "searchFedTag"\cf0 \
+            \cf4 android:text\cf0 =\cf5 "@string/search_fed_btn"\cf0  \
+            \cf4 android:textSize\cf0 =\cf5 "14sp"\cf2 />\cf0 \
+ \
+        \cf2 <\cf3 Button\cf0 \
+            \cf4 android:id\cf0 =\cf5 "@+id/search_farm_btn"\cf0 \
+            \cf4 android:layout_width\cf0 =\cf5 "100dp"\cf0 \
+            \cf4 android:layout_height\cf0 =\cf5 "50dp"\cf0 \
+            \cf4 android:layout_column\cf0 =\cf5 "1"\cf0 \
+            \cf4 android:layout_gravity\cf0 =\cf5 "left|top"\cf0 \
+            \cf4 android:layout_row\cf0 =\cf5 "0"\cf0 \
+            \cf4 android:onClick\cf0 =\cf5 "searchFarmTag"\cf0 \
+            \cf4 android:text\cf0 =\cf5 "@string/search_farm_btn"\cf0  \
+            \cf4 android:textSize\cf0 =\cf5 "14sp"\cf2 />\cf0 \
+       \
+        \cf2 <\cf3 Button\cf0 \
+            \cf4 android:id\cf0 =\cf5 "@+id/scan_eid_btn"\cf0 \
+            \cf4 android:layout_width\cf0 =\cf5 "100dp"\cf0 \
+            \cf4 android:layout_height\cf0 =\cf5 "50dp"\cf0 \
+            \cf4 android:layout_column\cf0 =\cf5 "2"\cf0 \
+            \cf4 android:layout_gravity\cf0 =\cf5 "left|top"\cf0 \
+            \cf4 android:layout_row\cf0 =\cf5 "0"\cf0 \
+            \cf4 android:onClick\cf0 =\cf5 "scanEid"\cf0 \
+            \cf4 android:text\cf0 =\cf5 "@string/scan_add_eid_btn"\cf0 \
+            \cf4 android:textSize\cf0 =\cf5 "14sp"\cf0  \cf2 />\cf0 \
+        \cf2 <\cf3 Button\cf0 \
+            \cf4 android:id\cf0 =\cf5 "@+id/clear_form_btn"\cf0 \
+            \cf4 android:layout_width\cf0 =\cf5 "100dp"\cf0 \
+            \cf4 android:layout_height\cf0 =\cf5 "50dp"\cf0 \
+            \cf4 android:layout_column\cf0 =\cf5 "1"\cf0 \
+            \cf4 android:layout_gravity\cf0 =\cf5 "left|top"\cf0 \
+            \cf4 android:layout_row\cf0 =\cf5 "1"\cf0 \
+            \cf4 android:onClick\cf0 =\cf5 "clearBtn"\cf0 \
+            \cf4 android:text\cf0 =\cf5 "@string/clear_btn"\cf0 \
+            \cf4 android:textSize\cf0 =\cf5 "14sp"\cf0  \cf2 />\cf0 \
+          \
+       \cf2 <\cf3 Button\cf0 \
+            \cf4 android:id\cf0 =\cf5 "@+id/alert_btn"\cf0 \
+            \cf4 android:layout_width\cf0 =\cf5 "100dp"\cf0 \
+            \cf4 android:layout_height\cf0 =\cf5 "50dp"\cf0 \
+            \cf4 android:layout_column\cf0 =\cf5 "0"\cf0 \
+            \cf4 android:layout_gravity\cf0 =\cf5 "left|top"\cf0 \
+            \cf4 android:layout_row\cf0 =\cf5 "1"\cf0 \
+            \cf4 android:onClick\cf0 =\cf5 "showAlert"\cf0 \
+            \cf4 android:text\cf0 =\cf5 "@string/alert_btn"\cf0 \
+            \cf4 android:textSize\cf0 =\cf5 "14sp"\cf0  \cf2 />\cf0  \
+        \
+        \cf2 <\cf3 Button\cf0 \
+            \cf4 android:id\cf0 =\cf5 "@+id/add_new_tag_btn"\cf0 \
+            \cf4 android:layout_width\cf0 =\cf5 "100dp"\cf0 \
+            \cf4 android:layout_height\cf0 =\cf5 "50dp"\cf0 \
+            \cf4 android:layout_column\cf0 =\cf5 "2"\cf0 \
+            \cf4 android:layout_gravity\cf0 =\cf5 "left|top"\cf0 \
+            \cf4 android:layout_row\cf0 =\cf5 "1"\cf0 \
+            \cf4 android:onClick\cf0 =\cf5 "addNewTag"\cf0 \
+            \cf4 android:text\cf0 =\cf5 "@string/add_new_tag_btn"\cf0 \
+            \cf4 android:textSize\cf0 =\cf5 "14sp"\cf0  \cf2 />\cf0 \
+               \
+       \cf2 <\cf3 Button\cf0 \
+            \cf4 android:id\cf0 =\cf5 "@+id/update_database_btn"\cf0 \
+            \cf4 android:layout_width\cf0 =\cf5 "100dp"\cf0 \
+            \cf4 android:layout_height\cf0 =\cf5 "50dp"\cf0 \
+            \cf4 android:layout_column\cf0 =\cf5 "3"\cf0 \
+            \cf4 android:layout_gravity\cf0 =\cf5 "left|top"\cf0 \
+            \cf4 android:layout_row\cf0 =\cf5 "0"\cf0 \
+            \cf4 android:onClick\cf0 =\cf5 "updateDatabase"\cf0 \
+            \cf4 android:text\cf0 =\cf5 "@string/update_database_btn"\cf0 \
+            \cf4 android:textSize\cf0 =\cf5 "14sp"\cf0  \cf2 />\cf0 \
+ \
+    \cf2 </\cf3 GridLayout\cf2 >\cf0 \
+    	\
+        \cf2 <\cf3 GridLayout\cf0 \
+        \cf4 android:id\cf0 =\cf5 "@+id/grid3"\cf0 \
+        \cf4 android:layout_width\cf0 =\cf5 "wrap_content"\cf0 \
+        \cf4 android:layout_height\cf0 =\cf5 "wrap_content"\cf0 \
+        \cf4 android:columnCount\cf0 =\cf5 "6"\cf0 \
+        \cf4 android:rowCount\cf0 =\cf5 "6"\cf0  \cf2 >\cf0 \
+\
+        \cf2 <\cf3 TextView\cf0 \
+            \cf4 android:layout_width\cf0 =\cf5 "90dp"\cf0 \
+            \cf4 android:layout_height\cf0 =\cf5 "wrap_content"\cf0 \
+            \cf4 android:layout_column\cf0 =\cf5 "0"\cf0 \
+            \cf4 android:layout_gravity\cf0 =\cf5 "left"\cf0 \
+            \cf4 android:layout_row\cf0 =\cf5 "0"\cf0 \
+            \cf4 android:inputType\cf0 =\cf5 "none"\cf0 \
+            \cf4 android:text\cf0 =\cf5 "@string/federal_id_lbl"\cf0  \cf2 />\cf0 \
+\
+        \cf2 <\cf3 EditText\cf0 \
+            \cf4 android:id\cf0 =\cf5 "@+id/fedText"\cf0 \
+            \cf4 android:layout_width\cf0 =\cf5 "90dp"\cf0 \
+            \cf4 android:layout_height\cf0 =\cf5 "wrap_content"\cf0 \
+            \cf4 android:layout_column\cf0 =\cf5 "0"\cf0 \
+            \cf4 android:layout_gravity\cf0 =\cf5 "left"\cf0 \
+            \cf4 android:layout_row\cf0 =\cf5 "1"\cf0 \
+            \cf4 android:inputType\cf0 =\cf5 "number"\cf0 \
+            \cf4 android:textSize\cf0 =\cf5 "18sp"\cf0 \
+            \cf4 android:typeface\cf0 =\cf5 "monospace"\cf0  \cf2 >\cf0 \
+        \cf2 </\cf3 EditText\cf2 >\cf0 \
+\
+        \cf2 <\cf3 TextView\cf0 \
+            \cf4 android:layout_width\cf0 =\cf5 "125dp"\cf0 \
+            \cf4 android:layout_height\cf0 =\cf5 "wrap_content"\cf0 \
+            \cf4 android:layout_column\cf0 =\cf5 "1"\cf0 \
+            \cf4 android:layout_gravity\cf0 =\cf5 "left"\cf0 \
+            \cf4 android:layout_row\cf0 =\cf5 "0"\cf0 \
+            \cf4 android:inputType\cf0 =\cf5 "none"\cf0 \
+            \cf4 android:text\cf0 =\cf5 "@string/tag_color_lbl"\cf0  \cf2 />\cf0 \
+\
+        \cf2 <\cf3 EditText\cf0 \
+            \cf4 android:id\cf0 =\cf5 "@+id/fed_colorText"\cf0 \
+            \cf4 android:layout_width\cf0 =\cf5 "125dp"\cf0 \
+            \cf4 android:layout_height\cf0 =\cf5 "wrap_content"\cf0 \
+            \cf4 android:layout_column\cf0 =\cf5 "1"\cf0 \
+            \cf4 android:layout_gravity\cf0 =\cf5 "left"\cf0 \
+            \cf4 android:layout_row\cf0 =\cf5 "1"\cf0 \
+            \cf4 android:inputType\cf0 =\cf5 "text"\cf0 \
+            \cf4 android:textSize\cf0 =\cf5 "18sp"\cf0 \
+            \cf4 android:typeface\cf0 =\cf5 "monospace"\cf0  \cf2 >\cf0 \
+        \cf2 </\cf3 EditText\cf2 >\cf0 \
+        \
+        \cf2 <\cf3 TextView\cf0 \
+            \cf4 android:layout_width\cf0 =\cf5 "90dp"\cf0 \
+            \cf4 android:layout_height\cf0 =\cf5 "wrap_content"\cf0 \
+            \cf4 android:layout_column\cf0 =\cf5 "2"\cf0 \
+            \cf4 android:layout_gravity\cf0 =\cf5 "left"\cf0 \
+            \cf4 android:layout_row\cf0 =\cf5 "0"\cf0 \
+            \cf4 android:inputType\cf0 =\cf5 "none"\cf0 \
+            \cf4 android:text\cf0 =\cf5 "@string/tag_location_lbl"\cf0  \cf2 />\cf0 \
+\
+        \cf2 <\cf3 EditText\cf0 \
+            \cf4 android:id\cf0 =\cf5 "@+id/fed_locationText"\cf0 \
+            \cf4 android:layout_width\cf0 =\cf5 "90dp"\cf0 \
+            \cf4 android:layout_height\cf0 =\cf5 "wrap_content"\cf0 \
+            \cf4 android:layout_column\cf0 =\cf5 "2"\cf0 \
+            \cf4 android:layout_gravity\cf0 =\cf5 "left"\cf0 \
+            \cf4 android:layout_row\cf0 =\cf5 "1"\cf0 \
+            \cf4 android:inputType\cf0 =\cf5 "text"\cf0 \
+            \cf4 android:textSize\cf0 =\cf5 "18sp"\cf0 \
+            \cf4 android:typeface\cf0 =\cf5 "monospace"\cf0  \cf2 >\cf0 \
+        \cf2 </\cf3 EditText\cf2 >\cf0 \
+        \cf2 <\cf3 Button\cf0 \
+            \cf4 android:id\cf0 =\cf5 "@+id/remove_fedtag_btn"\cf0 \
+            \cf4 android:layout_width\cf0 =\cf5 "100dp"\cf0 \
+            \cf4 android:layout_height\cf0 =\cf5 "50dp"\cf0 \
+            \cf4 android:layout_column\cf0 =\cf5 "3"\cf0 \
+            \cf4 android:layout_gravity\cf0 =\cf5 "left|top"\cf0 \
+            \cf4 android:layout_row\cf0 =\cf5 "1"\cf0 \
+            \cf4 android:onClick\cf0 =\cf5 "removeFedTag"\cf0 \
+            \cf4 android:text\cf0 =\cf5 "@string/remove_fedtag_btn"\cf0 \
+            \cf4 android:textSize\cf0 =\cf5 "14sp"\cf0  \cf2 />\cf0 \
+               \
+        \cf2 <\cf3 TextView\cf0 \
+            \cf4 android:layout_width\cf0 =\cf5 "90dp"\cf0 \
+            \cf4 android:layout_height\cf0 =\cf5 "wrap_content"\cf0 \
+            \cf4 android:layout_column\cf0 =\cf5 "0"\cf0 \
+            \cf4 android:layout_gravity\cf0 =\cf5 "left"\cf0 \
+            \cf4 android:layout_row\cf0 =\cf5 "2"\cf0 \
+            \cf4 android:inputType\cf0 =\cf5 "none"\cf0 \
+            \cf4 android:text\cf0 =\cf5 "@string/farm_id_lbl"\cf0  \cf2 />\cf0 \
+\
+        \cf2 <\cf3 EditText\cf0 \
+            \cf4 android:id\cf0 =\cf5 "@+id/farmText"\cf0 \
+            \cf4 android:layout_width\cf0 =\cf5 "90dp"\cf0 \
+            \cf4 android:layout_height\cf0 =\cf5 "wrap_content"\cf0 \
+            \cf4 android:layout_column\cf0 =\cf5 "0"\cf0 \
+            \cf4 android:layout_gravity\cf0 =\cf5 "left"\cf0 \
+            \cf4 android:layout_row\cf0 =\cf5 "3"\cf0 \
+            \cf4 android:enabled\cf0 =\cf5 "true"\cf0 \
+            \cf4 android:inputType\cf0 =\cf5 "number"\cf0 \
+            \cf4 android:textSize\cf0 =\cf5 "18sp"\cf0 \
+            \cf4 android:typeface\cf0 =\cf5 "monospace"\cf0  \cf2 />\cf0 \
+      \
+        \cf2 <\cf3 TextView\cf0 \
+            \cf4 android:layout_width\cf0 =\cf5 "125dp"\cf0 \
+            \cf4 android:layout_height\cf0 =\cf5 "wrap_content"\cf0 \
+            \cf4 android:layout_column\cf0 =\cf5 "1"\cf0 \
+            \cf4 android:layout_gravity\cf0 =\cf5 "left"\cf0 \
+            \cf4 android:layout_row\cf0 =\cf5 "2"\cf0 \
+            \cf4 android:inputType\cf0 =\cf5 "none"\cf0 \
+            \cf4 android:text\cf0 =\cf5 "@string/tag_color_lbl"\cf0  \cf2 />\cf0 \
+\
+        \cf2 <\cf3 EditText\cf0 \
+            \cf4 android:id\cf0 =\cf5 "@+id/farm_colorText"\cf0 \
+            \cf4 android:layout_width\cf0 =\cf5 "125dp"\cf0 \
+            \cf4 android:layout_height\cf0 =\cf5 "wrap_content"\cf0 \
+            \cf4 android:layout_column\cf0 =\cf5 "1"\cf0 \
+            \cf4 android:layout_gravity\cf0 =\cf5 "left"\cf0 \
+            \cf4 android:layout_row\cf0 =\cf5 "3"\cf0 \
+            \cf4 android:inputType\cf0 =\cf5 "text"\cf0 \
+            \cf4 android:textSize\cf0 =\cf5 "18sp"\cf0 \
+            \cf4 android:typeface\cf0 =\cf5 "monospace"\cf0  \cf2 >\cf0 \
+        \cf2 </\cf3 EditText\cf2 >\cf0 \
+        \
+        \cf2 <\cf3 TextView\cf0 \
+            \cf4 android:layout_width\cf0 =\cf5 "90dp"\cf0 \
+            \cf4 android:layout_height\cf0 =\cf5 "wrap_content"\cf0 \
+            \cf4 android:layout_column\cf0 =\cf5 "2"\cf0 \
+            \cf4 android:layout_gravity\cf0 =\cf5 "left"\cf0 \
+            \cf4 android:layout_row\cf0 =\cf5 "2"\cf0 \
+            \cf4 android:inputType\cf0 =\cf5 "none"\cf0 \
+            \cf4 android:text\cf0 =\cf5 "@string/tag_location_lbl"\cf0  \cf2 />\cf0 \
+\
+        \cf2 <\cf3 EditText\cf0 \
+            \cf4 android:id\cf0 =\cf5 "@+id/farm_locationText"\cf0 \
+            \cf4 android:layout_width\cf0 =\cf5 "90dp"\cf0 \
+            \cf4 android:layout_height\cf0 =\cf5 "wrap_content"\cf0 \
+            \cf4 android:layout_column\cf0 =\cf5 "2"\cf0 \
+            \cf4 android:layout_gravity\cf0 =\cf5 "left"\cf0 \
+            \cf4 android:layout_row\cf0 =\cf5 "3"\cf0 \
+            \cf4 android:inputType\cf0 =\cf5 "text"\cf0 \
+            \cf4 android:textSize\cf0 =\cf5 "18sp"\cf0 \
+            \cf4 android:typeface\cf0 =\cf5 "monospace"\cf0  \cf2 >\cf0 \
+        \cf2 </\cf3 EditText\cf2 >\cf0 \
+        \
+        \cf2 <\cf3 Button\cf0 \
+            \cf4 android:id\cf0 =\cf5 "@+id/remove_farmtag_btn"\cf0 \
+            \cf4 android:layout_width\cf0 =\cf5 "100dp"\cf0 \
+            \cf4 android:layout_height\cf0 =\cf5 "50dp"\cf0 \
+            \cf4 android:layout_column\cf0 =\cf5 "3"\cf0 \
+            \cf4 android:layout_gravity\cf0 =\cf5 "left|top"\cf0 \
+            \cf4 android:layout_row\cf0 =\cf5 "3"\cf0 \
+            \cf4 android:onClick\cf0 =\cf5 "removeFarmTag"\cf0 \
+            \cf4 android:text\cf0 =\cf5 "@string/remove_farmtag_btn"\cf0 \
+            \cf4 android:textSize\cf0 =\cf5 "14sp"\cf0  \cf2 />\cf0 \
+        \
+        \cf2 </\cf3 GridLayout\cf2 >\cf0 \
+       \cf2 <\cf3 GridLayout\cf0 \
+        \cf4 android:id\cf0 =\cf5 "@+id/grid4"\cf0 \
+        \cf4 android:layout_width\cf0 =\cf5 "wrap_content"\cf0 \
+        \cf4 android:layout_height\cf0 =\cf5 "wrap_content"\cf0 \
+        \cf4 android:columnCount\cf0 =\cf5 "3"\cf0 \
+        \cf4 android:rowCount\cf0 =\cf5 "4"\cf0  \cf2 >\cf0  \
+              \
+        \cf2 <\cf3 TextView\cf0 \
+            \cf4 android:layout_width\cf0 =\cf5 "215dp"\cf0 \
+            \cf4 android:layout_height\cf0 =\cf5 "wrap_content"\cf0 \
+            \cf4 android:layout_column\cf0 =\cf5 "0"\cf0 \
+            \cf4 android:layout_gravity\cf0 =\cf5 "left|top"\cf0 \
+            \cf4 android:layout_row\cf0 =\cf5 "0"\cf0 \
+            \cf4 android:inputType\cf0 =\cf5 "none"\cf0 \
+            \cf4 android:text\cf0 =\cf5 "@string/electronic_id_lbl"\cf0  \cf2 />\cf0 \
+        \
+        \cf2 <\cf3 EditText\cf0 \
+            \cf4 android:id\cf0 =\cf5 "@+id/eidText"\cf0 \
+            \cf4 android:layout_width\cf0 =\cf5 "215dp"\cf0 \
+            \cf4 android:layout_height\cf0 =\cf5 "wrap_content"\cf0 \
+            \cf4 android:layout_column\cf0 =\cf5 "0"\cf0 \
+            \cf4 android:layout_gravity\cf0 =\cf5 "left"\cf0 \
+            \cf4 android:layout_row\cf0 =\cf5 "1"\cf0 \
+            \cf4 android:enabled\cf0 =\cf5 "true"\cf0 \
+            \cf4 android:inputType\cf0 =\cf5 "text"\cf0 \
+            \cf4 android:textSize\cf0 =\cf5 "18sp"\cf0 \
+            \cf4 android:typeface\cf0 =\cf5 "monospace"\cf0  \cf2 />\cf0   \
+        \
+        \cf2 <\cf3 TextView\cf0 \
+            \cf4 android:layout_width\cf0 =\cf5 "90dp"\cf0 \
+            \cf4 android:layout_height\cf0 =\cf5 "wrap_content"\cf0 \
+            \cf4 android:layout_column\cf0 =\cf5 "1"\cf0 \
+            \cf4 android:layout_gravity\cf0 =\cf5 "left|top"\cf0 \
+            \cf4 android:layout_row\cf0 =\cf5 "0"\cf0 \
+            \cf4 android:inputType\cf0 =\cf5 "none"\cf0 \
+            \cf4 android:text\cf0 =\cf5 "@string/tag_location_lbl"\cf0  \cf2 />\cf0 \
+\
+        \cf2 <\cf3 Spinner\cf0 \
+  	  		\cf4 android:id\cf0 =\cf5 "@+id/eid_tag_location_spinner"\cf0 \
+  	  		\cf4 android:layout_width\cf0 =\cf5 "180dp"\cf0 \
+  	  		\cf4 android:layout_height\cf0 =\cf5 "wrap_content"\cf0 \
+  	  		\cf4 android:layout_column\cf0 =\cf5 "1"\cf0 \
+      		\cf4 android:layout_gravity\cf0 =\cf5 "left"\cf0 \
+      		\cf4 android:layout_row\cf0 =\cf5 "1"\cf0 \
+  	  		\cf4 android:textSize\cf0 =\cf5 "18sp"\cf2 />\cf0 \
+        \
+        \cf2 <\cf3 TextView\cf0 \
+            \cf4 android:layout_width\cf0 =\cf5 "125dp"\cf0 \
+            \cf4 android:layout_height\cf0 =\cf5 "wrap_content"\cf0 \
+            \cf4 android:layout_column\cf0 =\cf5 "0"\cf0 \
+            \cf4 android:layout_gravity\cf0 =\cf5 "left|top"\cf0 \
+            \cf4 android:layout_row\cf0 =\cf5 "2"\cf0 \
+            \cf4 android:inputType\cf0 =\cf5 "none"\cf0 \
+            \cf4 android:text\cf0 =\cf5 "@string/tag_color_lbl"\cf0  \cf2 />\cf0 \
+        \
+        \cf2 <\cf3 Spinner\cf0 \
+  	  		\cf4 android:id\cf0 =\cf5 "@+id/eid_tag_color_spinner"\cf0 \
+  	  		\cf4 android:layout_width\cf0 =\cf5 "180dp"\cf0 \
+  	  		\cf4 android:layout_height\cf0 =\cf5 "wrap_content"\cf0 \
+  	  		\cf4 android:layout_column\cf0 =\cf5 "0"\cf0 \
+      		\cf4 android:layout_gravity\cf0 =\cf5 "left"\cf0 \
+      		\cf4 android:layout_row\cf0 =\cf5 "3"\cf0 \
+  	  		\cf4 android:textSize\cf0 =\cf5 "18sp"\cf2 />\cf0 \
+        \cf2 </\cf3 GridLayout\cf2 >\cf0 \
+\
+\cf2 <\cf3 RelativeLayout\cf0 \
+    \cf4 android:id\cf0 =\cf5 "@+id/RelativeLayout02"\cf0 \
+    \cf4 android:orientation\cf0 =\cf5 "horizontal"\cf0  \
+  	\cf4 android:layout_width\cf0 =\cf5 "fill_parent"\cf0 \
+  	\cf4 android:layout_height\cf0 =\cf5 "wrap_content"\cf2 >\cf0 \
+        \
+       	\cf2 <\cf3 Button\cf0 \
+            \cf4 android:id\cf0 =\cf5 "@+id/back_to_main_btn"\cf0 \
+            \cf4 android:layout_width\cf0 =\cf5 "100dp"\cf0 \
+            \cf4 android:layout_height\cf0 =\cf5 "50dp"\cf0 \
+           	\cf4 android:layout_alignParentLeft\cf0 =\cf5 "true"\cf0 \
+            \cf4 android:onClick\cf0 =\cf5 "backBtn"\cf0 \
+            \cf4 android:text\cf0 =\cf5 "@string/back_btn"\cf0 \
+            \cf4 android:textSize\cf0 =\cf5 "14sp"\cf0  \cf2 />\cf0 \
+       	\
+       	\cf2 <\cf3 Button\cf0 \
+            \cf4 android:id\cf0 =\cf5 "@+id/take_note"\cf0 \
+            \cf4 android:layout_width\cf0 =\cf5 "100dp"\cf0 \
+            \cf4 android:layout_height\cf0 =\cf5 "50dp"\cf0 \
+           	\cf4 android:layout_centerInParent\cf0 =\cf5 "true"\cf0 \
+            \cf4 android:onClick\cf0 =\cf5 "takeNote"\cf0 \
+            \cf4 android:text\cf0 =\cf5 "@string/take_note_btn"\cf0 \
+            \cf4 android:textSize\cf0 =\cf5 "14sp"\cf0  \cf2 />\cf0 \
+       	\
+       	\cf2 <\cf3 Button\cf0 \
+           \cf4 android:id\cf0 =\cf5 "@+id/help_btn"\cf0 \
+           \cf4 android:layout_width\cf0 =\cf5 "100dp"\cf0 \
+           \cf4 android:layout_height\cf0 =\cf5 "50dp"\cf0 \
+           \cf4 android:layout_alignParentRight\cf0 =\cf5 "true"\cf0 \
+           \cf4 android:onClick\cf0 =\cf5 "helpBtn"\cf0 \
+           \cf4 android:text\cf0 =\cf5 "@string/help_btn"\cf0 \
+           \cf4 android:textSize\cf0 =\cf5 "14sp"\cf0  \cf2 />\cf0 \
+       	\cf2 </\cf3 RelativeLayout\cf2 >\cf0 \
+ \cf2 <\cf3 GridLayout\cf0 \
+        \cf4 android:id\cf0 =\cf5 "@+id/grid5"\cf0 \
+        \cf4 android:layout_width\cf0 =\cf5 "wrap_content"\cf0 \
+        \cf4 android:layout_height\cf0 =\cf5 "wrap_content"\cf0 \
+        \cf4 android:columnCount\cf0 =\cf5 "4"\cf0 \
+        \cf4 android:rowCount\cf0 =\cf5 "2"\cf0  \cf2 >\cf0 \
+      \
+  \cf2 <\cf3 Spinner\cf0 \
+        \cf4 android:id\cf0 =\cf5 "@+id/tag_type_spinner"\cf0 \
+        \cf4 android:layout_width\cf0 =\cf5 "180dp"\cf0 \
+        \cf4 android:layout_height\cf0 =\cf5 "wrap_content"\cf0 \
+        \cf4 android:layout_column\cf0 =\cf5 "0"\cf0 \
+        \cf4 android:layout_gravity\cf0 =\cf5 "left"\cf0 \
+        \cf4 android:layout_row\cf0 =\cf5 "0"\cf0 \
+        \cf4 android:textSize\cf0 =\cf5 "18sp"\cf0  \cf2 />\cf0 \
+  \cf2 <\cf3 Spinner\cf0 \
+  	  \cf4 android:id\cf0 =\cf5 "@+id/tag_color_spinner"\cf0 \
+  	  \cf4 android:layout_width\cf0 =\cf5 "180dp"\cf0 \
+  	  \cf4 android:layout_height\cf0 =\cf5 "wrap_content"\cf0 \
+  	  \cf4 android:layout_column\cf0 =\cf5 "1"\cf0 \
+      \cf4 android:layout_gravity\cf0 =\cf5 "left"\cf0 \
+      \cf4 android:layout_row\cf0 =\cf5 "0"\cf0 \
+  	  \cf4 android:textSize\cf0 =\cf5 "18sp"\cf2 />\cf0 \
+  \cf2 <\cf3 Spinner\cf0 \
+  	  \cf4 android:id\cf0 =\cf5 "@+id/tag_location_spinner"\cf0 \
+  	  \cf4 android:layout_width\cf0 =\cf5 "180dp"\cf0 \
+  	  \cf4 android:layout_height\cf0 =\cf5 "wrap_content"\cf0 \
+  	  \cf4 android:layout_column\cf0 =\cf5 "0"\cf0 \
+      \cf4 android:layout_gravity\cf0 =\cf5 "left"\cf0 \
+      \cf4 android:layout_row\cf0 =\cf5 "1"\cf0 \
+  	  \cf4 android:textSize\cf0 =\cf5 "18sp"\cf2 />\cf0 \
+ \
+  \cf2 </\cf3 GridLayout\cf2 >\cf0 \
+  \cf2 <\cf3 RelativeLayout\cf0 \
+    \cf4 android:id\cf0 =\cf5 "@+id/RelativeLayout03"\cf0 \
+    \cf4 android:orientation\cf0 =\cf5 "horizontal"\cf0  \
+  	\cf4 android:layout_width\cf0 =\cf5 "fill_parent"\cf0 \
+  	\cf4 android:layout_height\cf0 =\cf5 "wrap_content"\cf2 >\cf0 \
+   \cf2 <\cf3 EditText\cf0 \
+            \cf4 android:id\cf0 =\cf5 "@+id/new_tag_number"\cf0 \
+            \cf4 android:layout_width\cf0 =\cf5 "180dp"\cf0 \
+            \cf4 android:layout_height\cf0 =\cf5 "wrap_content"\cf0 \
+            \cf4 android:layout_alignParentLeft\cf0 =\cf5 "true"\cf0 \
+            \cf4 android:enabled\cf0 =\cf5 "true"\cf0 \
+            \cf4 android:inputType\cf0 =\cf5 "number"\cf0 \
+            \cf4 android:textSize\cf0 =\cf5 "18sp"\cf0 \
+            \cf4 android:typeface\cf0 =\cf5 "monospace"\cf0  \cf2 >\cf0 \
+           \cf2 </\cf3 EditText\cf2 >\cf0 \
+	\cf2 <\cf3 TextView\cf0  \
+	    	\cf4 android:layout_width\cf0 =\cf5 "90dp"\cf0 \
+            \cf4 android:layout_height\cf0 =\cf5 "wrap_content"\cf0 \
+            \cf4 android:layout_toRightOf\cf0 =\cf5 "@+id/new_tag_number"\cf0 \
+            \cf4 android:inputType\cf0 =\cf5 "none"\cf0 \
+            \cf4 android:text\cf0 =\cf5 "@string/new_tag_lbl"\cf2 />\cf0 \
+	\cf2 <\cf3 Button\cf0 \
+            \cf4 android:id\cf0 =\cf5 "@+id/update_display_btn"\cf0 \
+            \cf4 android:layout_width\cf0 =\cf5 "100dp"\cf0 \
+            \cf4 android:layout_height\cf0 =\cf5 "50dp"\cf0 \
+            \cf4 android:layout_alignParentRight\cf0 =\cf5 "true"\cf0 \
+            \cf4 android:onClick\cf0 =\cf5 "updateTag"\cf0 \
+            \cf4 android:text\cf0 =\cf5 "@string/update_display_btn"\cf0 \
+            \cf4 android:textSize\cf0 =\cf5 "14sp"\cf0  \cf2 />\cf0 \
+\cf2 </\cf3 RelativeLayout\cf2 >\cf0 \
+\
+\cf2 </\cf3 LinearLayout\cf2 >\cf0 \
+}
