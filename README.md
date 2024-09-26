@@ -1,4 +1,4 @@
-The LambTracker manual is being written in Scrivener. I am using this as the starting place to track it here on GitHub.
+LambTracker is now deprecated. All new code and new features are in AnimalTrakker
 
 ### Scrivener Starter Repository
 
